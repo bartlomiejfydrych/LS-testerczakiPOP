@@ -41,11 +41,11 @@ public class GlownaPage extends BasePage {
         return new PodstawyPage(driver);
     }
 
-//    public GlownaPage goToWiecejElementowPage(){
-//        wiecejElementowZacznij.click();
-//        return new WiecejElementowPage(driver);
-//    }
-//
+    public WiecejElementowPage goToWiecejElementowPage(){
+        wiecejElementowZacznij.click();
+        return new WiecejElementowPage(driver);
+    }
+
 //    public GlownaPage goToAsercjaPage(){
 //        asercjaZacznij.click();
 //        return new AsercjaPage(driver);
