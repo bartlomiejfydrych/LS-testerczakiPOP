@@ -11,7 +11,7 @@ public class PodstawyPage extends BasePage {
         super(driver);
     }
 
-    String podstawyURL = "http://testerczaki.pl/podstawy";
+    //String podstawyURL = "http://testerczaki.pl/podstawy";
 
     @FindBy(id = "firstName") WebElement imieInput;
     @FindBy(id = "lastName") WebElement nazwiskoInput;

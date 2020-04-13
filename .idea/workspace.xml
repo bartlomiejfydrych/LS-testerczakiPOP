@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3904931-cdbe-4b6d-a907-89f920e50cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WiecejElementowPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/TextTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/drag_and_drop_helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WiecejElementowTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GlownaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GlownaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PodstawyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PodstawyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WiecejElementowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WiecejElementowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PodstawyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PodstawyPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.WiecejElementowTest.poprawneLogowanieTest">
     <configuration name="PodstawyTest.poprawneLogowanieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebdriver" />
       <extension name="coverage">
@@ -51,8 +52,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WiecejElementowTest.poprawneLogowanieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.WiecejElementowTest" />
+      <option name="METHOD_NAME" value="poprawneLogowanieTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WiecejElementowTest.poprawneLogowanieTest" />
         <item itemvalue="JUnit.PodstawyTest.poprawneLogowanieTest" />
       </list>
     </recent_temporary>
@@ -75,21 +93,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586617952837" />
-    <state width="1876" height="294" key="GridCell.Tab.0.bottom" timestamp="1586618718454">
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1586766175919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586618718454" />
-    <state width="1876" height="294" key="GridCell.Tab.0.center" timestamp="1586618718454">
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175919" />
+    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1586766175918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586618718454" />
-    <state width="1876" height="294" key="GridCell.Tab.0.left" timestamp="1586618718454">
+    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175918" />
+    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1586766175918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586618718454" />
-    <state width="1876" height="294" key="GridCell.Tab.0.right" timestamp="1586618718454">
+    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175918" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1586766175919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586618718454" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175919" />
   </component>
 </project>

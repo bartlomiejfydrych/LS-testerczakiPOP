@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
 import java.io.File;
-import java.util.List;
 
 public class WiecejElementowPage extends BasePage {
 
@@ -15,7 +14,7 @@ public class WiecejElementowPage extends BasePage {
         super(driver);
     }
 
-    String wiecejElementowURL = "http://testerczaki.pl/wiecej";
+    //String wiecejElementowURL = "http://testerczaki.pl/wiecej";
 
     @FindBy(id = "firstName") WebElement imieInput;
     @FindBy(id = "lastName") WebElement nazwiskoInput;
@@ -25,13 +24,13 @@ public class WiecejElementowPage extends BasePage {
     @FindBy(id = "file") WebElement plikZalacznik;
 
     //Płeć
-    @FindBy(id = "male") WebElement mezczyznaRadio;
-    @FindBy(id = "female") WebElement kobietaRadio;
-    @FindBy(id = "other") WebElement inneRadio;
+    @FindBy(id = "maleLabel") WebElement mezczyznaRadio;
+    @FindBy(id = "femaleLabel") WebElement kobietaRadio;
+    @FindBy(id = "otherLabel") WebElement inneRadio;
 
-    @FindBy(id = "rules") WebElement regulaminCheckbox;
+    @FindBy(id = "rulesLabel") WebElement regulaminCheckbox;
     @FindBy(id = "submit") WebElement wyslijButton;
-    @FindBy(className = ".alert-success") WebElement gratulacjeAlert;
+    @FindBy(className = "alert-success") WebElement gratulacjeAlert;
 
     public void wpiszImie(String imie){
         imieInput.sendKeys(imie);
