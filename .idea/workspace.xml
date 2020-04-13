@@ -4,6 +4,8 @@
     <list default="true" id="e3904931-cdbe-4b6d-a907-89f920e50cc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/AsercjaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AsercjaPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AsercjaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AsercjaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.WiecejElementowTest.poprawneLogowanieTest">
+  <component name="RunManager" selected="JUnit.AsercjaTest.poprawneLogowanieTest">
+    <configuration name="AsercjaTest.poprawneLogowanieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebdriver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AsercjaTest" />
+      <option name="METHOD_NAME" value="poprawneLogowanieTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PodstawyTest.poprawneLogowanieTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebdriver" />
       <extension name="coverage">
@@ -66,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AsercjaTest.poprawneLogowanieTest" />
         <item itemvalue="JUnit.WiecejElementowTest.poprawneLogowanieTest" />
         <item itemvalue="JUnit.PodstawyTest.poprawneLogowanieTest" />
       </list>
@@ -89,21 +108,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586617952837" />
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1586766175919">
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1586769414926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175919" />
-    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1586766175918">
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
+    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1586769414926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175918" />
-    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1586766175918">
+    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
+    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1586769414926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175918" />
-    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1586766175919">
+    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1586769414926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586766175919" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
   </component>
 </project>

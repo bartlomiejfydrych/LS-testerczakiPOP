@@ -22,25 +22,27 @@ public class AsercjaPage extends BasePage {
 
     public void wpiszImie(String imie){
         imieInput.sendKeys(imie);
-        Assert.assertEquals(imie, imieInput.getAttribute("value"));
     }
     public void wpiszNazwisko(String nazwisko){
         nazwiskoInput.sendKeys(nazwisko);
-        Assert.assertEquals(nazwisko, nazwiskoInput.getAttribute("value"));
     }
     public void wpiszEmail(String email){
         emailInput.sendKeys(email);
-        Assert.assertEquals(email, emailInput.getAttribute("value"));
     }
     public void wpiszMiasto(String miasto){
         miastoInput.sendKeys(miasto);
-        Assert.assertEquals(miasto, miastoInput.getAttribute("value"));
     }
     public void akceptujRegulamin(){
         regulaminChceckbox.click();
-        Assert.assertTrue(regulaminChceckbox.isSelected());
     }
     public void wyslijDane(){
         wyslijButton.click();
+    }
+    public void asercjeSprawdzajaceFormularz(String imie, String nazwisko, String email, String miasto){
+        Assert.assertEquals(imie, imieInput.getAttribute("value"));
+        Assert.assertEquals(nazwisko, nazwiskoInput.getAttribute("value"));
+        Assert.assertEquals(email, emailInput.getAttribute("value"));
+        Assert.assertEquals(miasto, miastoInput.getAttribute("value"));
+        Assert.assertTrue(regulaminChceckbox.isSelected());
     }
 }
