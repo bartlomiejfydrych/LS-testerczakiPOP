@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3904931-cdbe-4b6d-a907-89f920e50cc2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LokalizatoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LokalizatoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AsercjaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AsercjaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AsercjaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AsercjaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GlownaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GlownaPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,25 +104,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586772984902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586772984902" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586617952837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586617952837" />
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1586769414926">
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom" timestamp="1586776639869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
-    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1586769414926">
+    <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586776639869" />
+    <state width="1876" height="239" key="GridCell.Tab.0.center" timestamp="1586776639868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
-    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1586769414926">
+    <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586776639868" />
+    <state width="1876" height="239" key="GridCell.Tab.0.left" timestamp="1586776639868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
-    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1586769414926">
+    <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586776639868" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right" timestamp="1586776639868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586769414926" />
+    <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586776639868" />
   </component>
 </project>

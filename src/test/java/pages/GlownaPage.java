@@ -51,11 +51,11 @@ public class GlownaPage extends BasePage {
         return new AsercjaPage(driver);
     }
 
-//    public GlownaPage goToLokalizatoryPage(){
-//        lokalizatoryZacznij.click();
-//        return new LokalizatoryPage(driver);
-//    }
-//
+    public LokalizatoryPage goToLokalizatoryPage(){
+        lokalizatoryZacznij.click();
+        return new LokalizatoryPage(driver);
+    }
+
 //    public GlownaPage goToUkryteElementyPage(){
 //        ukryteElementyZacznij.click();
 //        return new UkryteElementyPage(driver);
