@@ -24,9 +24,9 @@ public class LokalizatoryPage extends BasePage {
     @FindBy(className = "form-control-file") WebElement plikZalacznik;
 
     //Płeć
-    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(1)") WebElement mezczyznaRadio;
-    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(2)") WebElement kobietaRadio;
-    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(3)") WebElement inneRadio;
+    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(1)>.custom-control-label") WebElement mezczyznaRadio;
+    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(2)>.custom-control-label") WebElement kobietaRadio;
+    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(3)>.custom-control-label") WebElement inneRadio;
 
     @FindBy(css = ".custom-checkbox>.custom-control-label") WebElement regulaminCheckbox;
     @FindBy(css = "[type=\"submit\"]") WebElement wyslijButton;
