@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3904931-cdbe-4b6d-a907-89f920e50cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/WiecejElementowTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AsercjaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AsercjaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/PodstawyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PodstawyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WiecejElementowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WiecejElementowPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GlownaPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/PodstawyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/PodstawyPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/GlownaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/GlownaPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
