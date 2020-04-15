@@ -56,11 +56,11 @@ public class GlownaPage extends BasePage {
         return new LokalizatoryPage(driver);
     }
 
-//    public GlownaPage goToUkryteElementyPage(){
-//        ukryteElementyZacznij.click();
-//        return new UkryteElementyPage(driver);
-//    }
-//
+    public UkryteElementyPage goToUkryteElementyPage(){
+        ukryteElementyZacznij.click();
+        return new UkryteElementyPage(driver);
+    }
+
 //    public GlownaPage goToOpcjonalnyFormularzPage(){
 //        opcjonalnyFormularzZacznij.click();
 //        return new OpcjonalnyFormularzPage(driver);
