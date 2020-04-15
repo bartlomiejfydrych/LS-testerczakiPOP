@@ -61,11 +61,11 @@ public class GlownaPage extends BasePage {
         return new UkryteElementyPage(driver);
     }
 
-//    public GlownaPage goToOpcjonalnyFormularzPage(){
-//        opcjonalnyFormularzZacznij.click();
-//        return new OpcjonalnyFormularzPage(driver);
-//    }
-//
+    public OpcjonalnyFormularzPage goToOpcjonalnyFormularzPage(){
+        opcjonalnyFormularzZacznij.click();
+        return new OpcjonalnyFormularzPage(driver);
+    }
+
 //    public GlownaPage goToRamkaPage(){
 //        ramkaZacznij.click();
 //        return new RamkaPage(driver);
