@@ -38,6 +38,12 @@ public class WiecejRamekPage extends BasePage {
     public void przejdzDoIframe5(){
         driver.switchTo().frame(iframe5);
     }
+    public void cofnijDoParentFrame(){
+        driver.switchTo().parentFrame();
+    }
+    public void wrocDoDomyslnegoOkna(){
+        driver.switchTo().defaultContent();
+    }
     public void wpiszImie(String imie){
         imieInput.sendKeys(imie);
     }
@@ -61,8 +67,5 @@ public class WiecejRamekPage extends BasePage {
     }
     public void sprawdzAlert(){
         Assert.assertTrue(gratulacjeAlert.isDisplayed());
-    }
-    public void wrocDoDomyslnegoOkna(){
-        driver.switchTo().defaultContent();
     }
 }
