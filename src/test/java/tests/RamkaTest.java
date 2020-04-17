@@ -2,7 +2,6 @@ package tests;
 
 import org.junit.Test;
 import pages.GlownaPage;
-import pages.PodstawyPage;
 import pages.RamkaPage;
 
 public class RamkaTest extends BaseTest {
