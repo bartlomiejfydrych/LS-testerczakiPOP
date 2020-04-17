@@ -76,11 +76,11 @@ public class GlownaPage extends BasePage {
         return new WiecejRamekPage(driver);
     }
 
-//    public GlownaPage goToOknaZakladkiPage(){
-//        oknaZakladkiZacznij.click();
-//        return new OknaZakladkiPage(driver);
-//    }
-//
+    public OknaZakladkiPage goToOknaZakladkiPage(){
+        oknaZakladkiZacznij.click();
+        return new OknaZakladkiPage(driver);
+    }
+
 //    public GlownaPage goToPodstawyPage(){
 //        podstawyZacznij.click();
 //        return new PodstawyPage(driver);
