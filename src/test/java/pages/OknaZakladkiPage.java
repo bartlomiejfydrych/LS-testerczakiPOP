@@ -26,6 +26,9 @@ public class OknaZakladkiPage extends BasePage {
         podstawyOkno.click();
         return new PodstawyPage(driver);
     }
+    public void powiekszOkno(){
+        driver.manage().window().maximize();
+    }
     public void przelaczKarteOkno(int numer){
         List<String> kartyOkna = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(kartyOkna.get(numer));
