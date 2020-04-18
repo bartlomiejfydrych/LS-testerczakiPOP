@@ -86,11 +86,11 @@ public class GlownaPage extends BasePage {
         return new KomunikatyPage(driver);
     }
 
-//    public GlownaPage goToPodstawyPage(){
-//        podstawyZacznij.click();
-//        return new PodstawyPage(driver);
-//    }
-//
+    public MenuPage goToMenuPage(){
+        menuZacznij.click();
+        return new MenuPage(driver);
+    }
+
 //    public GlownaPage goToPodstawyPage(){
 //        podstawyZacznij.click();
 //        return new PodstawyPage(driver);
