@@ -81,11 +81,11 @@ public class GlownaPage extends BasePage {
         return new OknaZakladkiPage(driver);
     }
 
-//    public GlownaPage goToPodstawyPage(){
-//        podstawyZacznij.click();
-//        return new PodstawyPage(driver);
-//    }
-//
+    public KomunikatyPage goToKomunikatyPage(){
+        podstawyZacznij.click();
+        return new KomunikatyPage(driver);
+    }
+
 //    public GlownaPage goToPodstawyPage(){
 //        podstawyZacznij.click();
 //        return new PodstawyPage(driver);
