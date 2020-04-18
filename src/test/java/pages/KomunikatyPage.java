@@ -18,25 +18,24 @@ public class KomunikatyPage extends BasePage {
     @FindBy(id = "msgBtn") WebElement wyswietlKomunikatButton;
     @FindBy(id = "submit") WebElement sprawdzKomunikatButton;
     @FindBy(id = "alert") WebElement gratulacjeAlert;
-    Alert alert = przejdzNaAlert();
-    String tekst = pobierzTekstAlert();
 
+    Alert alert = null;
+    String tekst = null;
+
+    public void przejdzNaAlert(){
+        alert = driver.switchTo().alert();
+    }
+    public void pobierzTekstAlert(){
+        tekst = alert.getText();
+    }
     public void kliknijWyswietlKomunikat(){
         wyswietlKomunikatButton.click();
     }
     public void kliknijSprawdzKomunikat(){
         sprawdzKomunikatButton.click();
     }
-    public Alert przejdzNaAlert(){
-        driver.switchTo().alert();
-        return null;
-    }
     public void wklejKomunikat(){
         komunikatInput.sendKeys(tekst);
-    }
-    public String pobierzTekstAlert(){
-        alert.getText();
-        return null;
     }
     public void akceptujAlert(){
         alert.accept();

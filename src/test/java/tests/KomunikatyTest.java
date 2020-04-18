@@ -13,8 +13,8 @@ public class KomunikatyTest extends BaseTest {
         KomunikatyPage komunikatyPage = new KomunikatyPage(driver);
         komunikatyPage.kliknijWyswietlKomunikat();
         komunikatyPage.przejdzNaAlert();
-        komunikatyPage.akceptujAlert();
         komunikatyPage.pobierzTekstAlert();
+        komunikatyPage.akceptujAlert();
         komunikatyPage.wklejKomunikat();
         komunikatyPage.kliknijSprawdzKomunikat();
         komunikatyPage.akceptujAlert();

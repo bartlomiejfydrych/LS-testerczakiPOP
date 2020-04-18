@@ -82,7 +82,7 @@ public class GlownaPage extends BasePage {
     }
 
     public KomunikatyPage goToKomunikatyPage(){
-        podstawyZacznij.click();
+        komunikatyZacznij.click();
         return new KomunikatyPage(driver);
     }
 
