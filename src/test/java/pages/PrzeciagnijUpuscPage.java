@@ -37,11 +37,6 @@ public class PrzeciagnijUpuscPage extends BasePage {
 
     Actions action = new Actions(driver);
 
-    private static String readFile(String path) throws IOException {
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
-        return new String(encoded, StandardCharsets.UTF_8);
-    }
-
     // Metody zadania 1:
     public void sprawdzAlert1(){
         Assert.assertTrue(alert1.isDisplayed());
@@ -77,13 +72,22 @@ public class PrzeciagnijUpuscPage extends BasePage {
     public void sprawdzAlert3(){
         Assert.assertTrue(alert3.isDisplayed());
     }
-    public void przeniesElementyDoGrupyYhtml5() throws IOException {
+    public void przeniesElementyDoGrupyYhtml5() {
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor)driver;
         File file = new File("src/test/resources/drag_and_drop_helper.js");
 
-        String script = readFile(file.getAbsolutePath())
-                +"\nsimulateHTML5DragAndDrop(arguments[0], arguments[1])";
+        String script = null;
+        try {
+            script = readFile(file.getAbsolutePath())
+                    +"\nsimulateHTML5DragAndDrop(arguments[0], arguments[1])";
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         javascriptExecutor.executeScript(script, element1X, grupaY);
         javascriptExecutor.executeScript(script, element2X, grupaY);
+    }
+    private static String readFile(String path) throws IOException {
+        byte[] encoded = Files.readAllBytes(Paths.get(path));
+        return new String(encoded, StandardCharsets.UTF_8);
     }
 }
