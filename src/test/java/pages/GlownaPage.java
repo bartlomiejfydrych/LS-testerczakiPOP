@@ -91,9 +91,9 @@ public class GlownaPage extends BasePage {
         return new MenuPage(driver);
     }
 
-//    public GlownaPage goToPodstawyPage(){
-//        podstawyZacznij.click();
-//        return new PodstawyPage(driver);
-//    }
+    public PrzeciagnijUpuscPage goToPrzeciagnijUpuscPage(){
+        przeciagnijUpuscZacznij.click();
+        return new PrzeciagnijUpuscPage(driver);
+    }
 
 }
