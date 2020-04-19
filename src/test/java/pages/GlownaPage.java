@@ -35,65 +35,56 @@ public class GlownaPage extends BasePage {
         driver.get(adresURL);
         return this;
     }
-
     public PodstawyPage goToPodstawyPage(){
         podstawyZacznij.click();
         return new PodstawyPage(driver);
     }
-
     public WiecejElementowPage goToWiecejElementowPage(){
         wiecejElementowZacznij.click();
         return new WiecejElementowPage(driver);
     }
-
     public AsercjaPage goToAsercjaPage(){
         asercjaZacznij.click();
         return new AsercjaPage(driver);
     }
-
     public LokalizatoryPage goToLokalizatoryPage(){
         lokalizatoryZacznij.click();
         return new LokalizatoryPage(driver);
     }
-
     public UkryteElementyPage goToUkryteElementyPage(){
         ukryteElementyZacznij.click();
         return new UkryteElementyPage(driver);
     }
-
     public OpcjonalnyFormularzPage goToOpcjonalnyFormularzPage(){
         opcjonalnyFormularzZacznij.click();
         return new OpcjonalnyFormularzPage(driver);
     }
-
     public RamkaPage goToRamkaPage(){
         ramkaZacznij.click();
         return new RamkaPage(driver);
     }
-
     public WiecejRamekPage goToWiecejRamekPage(){
         wiecejRamekZacznij.click();
         return new WiecejRamekPage(driver);
     }
-
     public OknaZakladkiPage goToOknaZakladkiPage(){
         oknaZakladkiZacznij.click();
         return new OknaZakladkiPage(driver);
     }
-
     public KomunikatyPage goToKomunikatyPage(){
         komunikatyZacznij.click();
         return new KomunikatyPage(driver);
     }
-
     public MenuPage goToMenuPage(){
         menuZacznij.click();
         return new MenuPage(driver);
     }
-
     public PrzeciagnijUpuscPage goToPrzeciagnijUpuscPage(){
         przeciagnijUpuscZacznij.click();
         return new PrzeciagnijUpuscPage(driver);
     }
-
+    public KliknijPrzytrzymajPage goToKliknijPrzytrzymajPage(){
+        kliknijPrzetrzymajZacznij.click();
+        return new KliknijPrzytrzymajPage(driver);
+    }
 }
