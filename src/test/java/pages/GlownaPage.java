@@ -87,4 +87,8 @@ public class GlownaPage extends BasePage {
         kliknijPrzetrzymajZacznij.click();
         return new KliknijPrzytrzymajPage(driver);
     }
+    public NiestandardoweListyPage goToNiestandardoweListyPage(){
+        niestandardoweListyZacznij.click();
+        return new NiestandardoweListyPage(driver);
+    }
 }
