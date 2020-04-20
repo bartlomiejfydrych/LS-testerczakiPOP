@@ -24,7 +24,7 @@ public class TabelePage extends BasePage {
 
     String wiekJanusza = "";
     String imieWarszawiaka = "";
-    double srednia = 0;
+    double srednia = 0.0;
     int sum = 0;
 
     public void odczytajDaneTabeli(){
@@ -40,7 +40,7 @@ public class TabelePage extends BasePage {
             if (imie.getText().equals("Janusz")) wiekJanusza = wiek.getText();
             if (miasto.getText().equals("Warszawa")) imieWarszawiaka = imie.getText();
 
-            double srednia = (double)sum / (double)rows.size();
+            srednia = (double)sum / (double)rows.size();
         }
     }
     public void wpiszSrednia(){
