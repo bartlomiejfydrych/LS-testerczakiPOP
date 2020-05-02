@@ -17,14 +17,6 @@ public class WiecejRamekPage extends BasePage {
     @FindBy(css = "[src=\"/iframe3.php\"]") WebElement iframe3;
     @FindBy(css = "[src=\"/iframe4.php\"]") WebElement iframe4;
     @FindBy(css = "[src=\"/iframe5.php\"]") WebElement iframe5;
-    @FindBy(id = "firstName") WebElement imieInput;
-    @FindBy(id = "lastName") WebElement nazwiskoInput;
-    @FindBy(id = "email") WebElement emailInput;
-    @FindBy(id = "city") WebElement miastoInput;
-    @FindBy(id = "street") WebElement ulicaInput;
-    @FindBy(id = "rules") WebElement regulaminCheckbox;
-    @FindBy(id = "submit") WebElement wyslijButton;
-    @FindBy(id = "alert") WebElement gratulacjeAlert;
 
     public void przejdzDoIframe2(){
         driver.switchTo().frame(iframe2);
@@ -44,28 +36,5 @@ public class WiecejRamekPage extends BasePage {
     public void wrocDoDomyslnegoOkna(){
         driver.switchTo().defaultContent();
     }
-    public void wpiszImie(String imie){
-        imieInput.sendKeys(imie);
-    }
-    public void wpiszNazwisko(String nazwisko){
-        nazwiskoInput.sendKeys(nazwisko);
-    }
-    public void wpiszEmail(String email){
-        emailInput.sendKeys(email);
-    }
-    public void wpiszMiasto(String miasto){
-        miastoInput.sendKeys(miasto);
-    }
-    public void wpiszUlica(String ulica){
-        ulicaInput.sendKeys(ulica);
-    }
-    public void akceptujRegulamin(){
-        regulaminCheckbox.click();
-    }
-    public void wyslijDane(){
-        wyslijButton.click();
-    }
-    public void sprawdzAlert(){
-        Assert.assertTrue(gratulacjeAlert.isDisplayed());
-    }
+
 }

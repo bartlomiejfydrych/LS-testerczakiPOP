@@ -37,9 +37,7 @@ public class PodstawyPage extends BasePage {
     public void wpiszUlica(String ulica){
         ulicaInput.sendKeys(ulica);
     }
-    public void akceptujRegulamin(){
-        regulaminCheckbox.click();
-    }
+    public void akceptujRegulamin(){ regulaminCheckbox.click(); }
     public void wyslijDane(){
         wyslijButton.click();
     }

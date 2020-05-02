@@ -24,7 +24,7 @@ public class LokalizatoryPage extends BasePage {
     @FindBy(className = "form-control-file") WebElement plikZalacznik;
 
     //Płeć
-    @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(1)>.custom-control-label") WebElement mezczyznaRadio;
+    @FindBy(css = "div.mb-3 > div.custom-radio:nth-of-type(1)>.custom-control-label") WebElement mezczyznaRadio;
     @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(2)>.custom-control-label") WebElement kobietaRadio;
     @FindBy(css = "div.mb-3>div.custom-radio:nth-of-type(3)>.custom-control-label") WebElement inneRadio;
 
@@ -32,29 +32,36 @@ public class LokalizatoryPage extends BasePage {
     @FindBy(css = "[type=\"submit\"]") WebElement wyslijButton;
     @FindBy(className = "alert-success") WebElement gratulacjeAlert;
 
-    public void wpiszImie(String imie){
+    public void wpiszImie(String imie) {
         imieInput.sendKeys(imie);
     }
-    public void wpiszNazwisko(String nazwisko){
+    public void wpiszNazwisko(String nazwisko) {
         nazwiskoInput.sendKeys(nazwisko);
     }
-    public void wybierzKraj(String krajNazwa){
+
+    public void wybierzKraj(String krajNazwa) {
         Select kraj = new Select(krajSelect);
         kraj.selectByVisibleText(krajNazwa);
     }
-    public void wybierzJezyk(String jezykNazwa){
+
+    public void wybierzJezyk(String... jezyki) {
         Select jezyk = new Select(jezykSelect);
-        jezyk.selectByVisibleText(jezykNazwa);
+        for ( String jezykNazwa : jezyki ) {
+            jezyk.selectByVisibleText(jezykNazwa);
+        }
     }
-    public void wpiszSobie(String tekst){
+
+    public void wpiszSobie(String tekst) {
         oSobieInput.sendKeys(tekst);
     }
-    public void wyslijPlik(){
+
+    public void wyslijPlik() {
         String textTest = new File("src/test/resources/TextTest.txt").getAbsolutePath();
         plikZalacznik.sendKeys(textTest);
     }
-    public void wybierzPlec(String plec){
-        switch (plec){
+
+    public void wybierzPlec(String plec) throws Exception {
+        switch (plec) {
             case "Mężczyzna":
                 mezczyznaRadio.click();
                 break;
@@ -65,16 +72,17 @@ public class LokalizatoryPage extends BasePage {
                 inneRadio.click();
                 break;
             default:
-                System.out.println("Źle podana płeć.");
+                throw new Exception("Źle podana płeć.");
         }
     }
-    public void akceptujRegulamin(){
+
+    public void akceptujRegulamin() {
         regulaminCheckbox.click();
     }
-    public void wyslijDane(){
+    public void wyslijDane() {
         wyslijButton.click();
     }
-    public void sprawdzAlert(){
+    public void sprawdzAlert() {
         Assert.assertTrue(gratulacjeAlert.isDisplayed());
     }
 }

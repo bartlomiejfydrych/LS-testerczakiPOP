@@ -1,31 +1,30 @@
 package tests;
 
 import org.junit.Test;
-import pages.GlownaPage;
+import pages.PodstawyPage;
 import pages.WiecejRamekPage;
 
 public class WiecejRamekTest extends BaseTest {
 
     @Test
     public void poprawneLogowanieTest(){
-        GlownaPage glownaPage = new GlownaPage(driver);
-        glownaPage.goToWiecejRamekPage();
-        WiecejRamekPage wiecejRamekPage = new WiecejRamekPage(driver);
+        WiecejRamekPage wiecejRamekPage = glownaPage.goToWiecejRamekPage();
+        PodstawyPage podstawyPage = new PodstawyPage(driver);
         wiecejRamekPage.przejdzDoIframe2();
-        wiecejRamekPage.wpiszImie("Bartek");
-        wiecejRamekPage.wpiszNazwisko("Bogucki");
+        podstawyPage.wpiszImie("Bartek");
+        podstawyPage.wpiszNazwisko("Bogucki");
         wiecejRamekPage.przejdzDoIframe3();
-        wiecejRamekPage.wpiszEmail("saturn993@amorki.pl");
+        podstawyPage.wpiszEmail("saturn993@amorki.pl");
         wiecejRamekPage.cofnijDoParentFrame();
         wiecejRamekPage.przejdzDoIframe4();
-        wiecejRamekPage.wpiszMiasto("Radom");
+        podstawyPage.wpiszMiasto("Radom");
         wiecejRamekPage.wrocDoDomyslnegoOkna();
         wiecejRamekPage.przejdzDoIframe5();
-        wiecejRamekPage.wpiszUlica("Kochanowskiego 4a/5");
+        podstawyPage.wpiszUlica("Kochanowskiego 4a/5");
         wiecejRamekPage.wrocDoDomyslnegoOkna();
-        wiecejRamekPage.akceptujRegulamin();
-        wiecejRamekPage.wyslijDane();
-        wiecejRamekPage.sprawdzAlert();
+        podstawyPage.akceptujRegulamin();
+        podstawyPage.wyslijDane();
+        podstawyPage.sprawdzAlert();
         wiecejRamekPage.wrocDoDomyslnegoOkna();
     }
 }

@@ -7,10 +7,8 @@ import pages.UkryteElementyPage;
 public class UkryteElementyTest extends BaseTest {
 
     @Test
-    public void poprawneLogowanieTest(){
-        GlownaPage glownaPage = new GlownaPage(driver);
-        glownaPage.goToUkryteElementyPage();
-        UkryteElementyPage ukryteElementyPage = new UkryteElementyPage(driver);
+    public void poprawneLogowanieTest() {
+        UkryteElementyPage ukryteElementyPage = glownaPage.goToUkryteElementyPage();
         ukryteElementyPage.wpiszImie("Damian");
         ukryteElementyPage.wpiszNazwisko("Bosak");
         ukryteElementyPage.wpiszEmail("mostek55@interia.pl");

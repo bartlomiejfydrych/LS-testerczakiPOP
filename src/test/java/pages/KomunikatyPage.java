@@ -19,8 +19,8 @@ public class KomunikatyPage extends BasePage {
     @FindBy(id = "submit") WebElement sprawdzKomunikatButton;
     @FindBy(id = "alert") WebElement gratulacjeAlert;
 
-    Alert alert = null;
-    String tekst = null;
+    Alert alert;
+    String tekst;
 
     public void przejdzNaAlert(){
         alert = driver.switchTo().alert();

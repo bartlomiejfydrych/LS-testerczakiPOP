@@ -7,10 +7,8 @@ import pages.OpcjonalnyFormularzPage;
 public class OpcjonalnyFormularzTest extends BaseTest {
 
     @Test
-    public void poprawneLogowanieTest(){
-        GlownaPage glownaPage = new GlownaPage(driver);
-        glownaPage.goToOpcjonalnyFormularzPage();
-        OpcjonalnyFormularzPage opcjonalnyFormularzPage = new OpcjonalnyFormularzPage(driver);
+    public void poprawneLogowanieTest() {
+        OpcjonalnyFormularzPage opcjonalnyFormularzPage = glownaPage.goToOpcjonalnyFormularzPage();
         opcjonalnyFormularzPage.wpiszImie("Krzysiek");
         opcjonalnyFormularzPage.wpiszNazwisko("Frank");
         opcjonalnyFormularzPage.wpiszEmail("henryk23@wp.pl");

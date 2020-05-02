@@ -3,6 +3,7 @@ package tests;
 import org.junit.Test;
 import pages.AsercjaPage;
 import pages.GlownaPage;
+import pages.PodstawyPage;
 
 public class AsercjaTest extends BaseTest {
 
@@ -13,18 +14,17 @@ public class AsercjaTest extends BaseTest {
         String nazwisko = "Rowerek";
         String email = "marianek22@o2.pl";
         String miasto = "Sosnowiec";
+        String ulica = "Koparki 14a/7";
 
-        GlownaPage glownaPage = new GlownaPage(driver);
-        glownaPage.goToAsercjaPage();
-        AsercjaPage asercjaPage = new AsercjaPage(driver);
+        AsercjaPage asercjaPage = glownaPage.goToAsercjaPage();
         asercjaPage.wpiszImie(imie);
         asercjaPage.wpiszNazwisko(nazwisko);
         asercjaPage.wpiszEmail(email);
         asercjaPage.wpiszMiasto(miasto);
-        asercjaPage.akceptujRegulamin();
-
+        asercjaPage.wpiszUlica(ulica);
         asercjaPage.asercjeSprawdzajaceFormularz(imie, nazwisko, email, miasto);
-        
+        asercjaPage.akceptujRegulamin();
+        asercjaPage.asercjaSprawdzajacaRegulaminCheckbox();
         asercjaPage.wyslijDane();
     }
 }

@@ -8,9 +8,7 @@ public class PodstawyTest extends BaseTest {
 
     @Test
     public void poprawneLogowanieTest() {
-        GlownaPage glownaPage = new GlownaPage(driver);
-        glownaPage.goToPodstawyPage();
-        PodstawyPage podstawyPage = new PodstawyPage(driver);
+        PodstawyPage podstawyPage = glownaPage.goToPodstawyPage();
         podstawyPage.wpiszImie("Bartek");
         podstawyPage.wpiszNazwisko("Bogucki");
         podstawyPage.wpiszEmail("saturn993@amorki.pl");

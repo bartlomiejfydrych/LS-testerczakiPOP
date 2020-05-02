@@ -21,17 +21,17 @@ public class TabelePage extends BasePage {
     @FindBy(id = "name") WebElement imieInput;
     @FindBy(id = "submit1") WebElement sprawdzButton;
     @FindBy(id = "alert1") WebElement alert;
+    @FindBy(css = "#table1 tr") List<WebElement> rows;
+    By rowSelector = By.cssSelector("td");
 
     String wiekJanusza = "";
     String imieWarszawiaka = "";
     double srednia = 0.0;
     int sum = 0;
 
-    public void odczytajDaneTabeli(){
-        List<WebElement> rows = driver.findElements(By.cssSelector("#table1 tr"));
-
+    public void odczytajDaneTabeli() {
         for (WebElement row : rows) {
-            List<WebElement> cells = row.findElements(By.cssSelector("td"));
+            List<WebElement> cells = row.findElements(rowSelector);
             WebElement imie = cells.get(0);
             WebElement wiek = cells.get(1);
             WebElement miasto = cells.get(2);
@@ -40,22 +40,23 @@ public class TabelePage extends BasePage {
             if (imie.getText().equals("Janusz")) wiekJanusza = wiek.getText();
             if (miasto.getText().equals("Warszawa")) imieWarszawiaka = imie.getText();
 
-            srednia = (double)sum / (double)rows.size();
+            srednia = (double) sum / (double) rows.size();
         }
     }
-    public void wpiszSrednia(){
+
+    public void wpiszSrednia() {
         sredniaInput.sendKeys(Double.toString(srednia));
     }
-    public void wpiszWiek(){
+    public void wpiszWiek() {
         wiekInput.sendKeys(wiekJanusza);
     }
-    public void wpiszImie(){
+    public void wpiszImie() {
         imieInput.sendKeys(imieWarszawiaka);
     }
-    public void kliknijSprawdz(){
+    public void kliknijSprawdz() {
         sprawdzButton.click();
     }
-    public void sprawdzAlert(){
+    public void sprawdzAlert() {
         Assert.assertTrue(alert.isDisplayed());
     }
 }
