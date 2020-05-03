@@ -20,11 +20,16 @@ Each test tries to perform a given task from the site.
 - reading values from the table;
 
 ## Steps to run this tests from your side:
-WARNING! One test must failed because one of excercises need this.
+**WARNING! One test must failed because one of excercises need this.**
+### Requirements:
+- Google Chrome;
+- JDK 8;
+- Maven 3.6;
+### Short steps:
 1. Download this repository on your computer.
 2. Open CMD (console).
 3. Set CMD path on repository folder.
-4. Write command: mvn clean test
+4. Write command: ***mvn clean test***
 
 ## Used technologies:
 - Java;
