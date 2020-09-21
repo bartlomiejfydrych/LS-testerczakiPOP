@@ -12,7 +12,7 @@ public class MenuPage extends BasePage {
         super(driver);
     }
 
-    //String menuURL = "http://testerczaki.pl/menu";
+    //String menuURL = "http://dawidkaruga.pl/testerczaki/menu";
 
     // Elementy zadania 1:
     @FindBy(css = ".navbar-expand> .collapse > .navbar-nav > a:nth-child(2)") WebElement z1link2;

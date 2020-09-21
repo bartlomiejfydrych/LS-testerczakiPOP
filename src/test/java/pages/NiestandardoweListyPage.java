@@ -13,7 +13,7 @@ public class NiestandardoweListyPage extends BasePage {
         super(driver);
     }
 
-    //String niestandardoweListyURL = "http://testerczaki.pl/listy";
+    //String niestandardoweListyURL = "http://dawidkaruga.pl/testerczaki/listy";
 
     // Elementy zadania 1:
     @FindBy(css = "button:first-of-type") WebElement z1wybierzButton;

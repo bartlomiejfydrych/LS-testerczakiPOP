@@ -10,7 +10,7 @@ public class RamkaPage extends BasePage {
         super(driver);
     }
 
-    //String ramkaURL = "http://testerczaki.pl/ramka";
+    //String ramkaURL = "http://dawidkaruga.pl/testerczaki/ramka";
 
     @FindBy(id = "frame") WebElement iframeOne;
 

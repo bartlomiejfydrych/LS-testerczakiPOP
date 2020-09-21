@@ -14,7 +14,7 @@ public class WiecejElementowPage extends BasePage {
         super(driver);
     }
 
-    //String wiecejElementowURL = "http://testerczaki.pl/wiecej";
+    //String wiecejElementowURL = "http://dawidkaruga.pl/testerczaki/wiecej";
 
     @FindBy(id = "firstName") WebElement imieInput;
     @FindBy(id = "lastName") WebElement nazwiskoInput;

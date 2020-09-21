@@ -13,7 +13,7 @@ public class OknaZakladkiPage extends BasePage {
         super(driver);
     }
 
-    //String oknaZakladkiURL = "http://testerczaki.pl/okna";
+    //String oknaZakladkiURL = "http://dawidkaruga.pl/testerczaki/okna";
 
     @FindBy(id = "newTab") WebElement podstawyKarta;
     @FindBy(id = "newWindow") WebElement podstawyOkno;

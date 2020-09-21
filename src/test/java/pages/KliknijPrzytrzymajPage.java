@@ -12,7 +12,7 @@ public class KliknijPrzytrzymajPage extends BasePage {
         super(driver);
     }
 
-    //String kliknijPrzytrzymajURL = "http://testerczaki.pl/mysz";
+    //String kliknijPrzytrzymajURL = "http://dawidkaruga.pl/testerczaki/mysz";
 
     // Elementy zadania 1:
     @FindBy(id = "contextClick") WebElement z1prawyPrzycisk;

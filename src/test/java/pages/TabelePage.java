@@ -14,7 +14,7 @@ public class TabelePage extends BasePage {
         super(driver);
     }
 
-    //String tabeleURL = "http://testerczaki.pl/tabele";
+    //String tabeleURL = "http://dawidkaruga.pl/testerczaki/tabele";
 
     @FindBy(id = "avg") WebElement sredniaInput;
     @FindBy(id = "age") WebElement wiekInput;

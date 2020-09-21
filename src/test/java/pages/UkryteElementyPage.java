@@ -11,7 +11,7 @@ public class UkryteElementyPage extends BasePage {
         super(driver);
     }
 
-    //String ukryteElementyURL = "http://testerczaki.pl/ukryte";
+    //String ukryteElementyURL = "http://dawidkaruga.pl/testerczaki/ukryte";
 
     @FindBy(css = ".container>.row:nth-of-type(3) form") WebElement poprawnyKontener;
     @FindBy(css = ".container>.row:nth-of-type(3) form #firstName") WebElement imieInput;

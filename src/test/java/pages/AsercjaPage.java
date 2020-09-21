@@ -9,7 +9,7 @@ public class AsercjaPage extends PodstawyPage {
         super(driver);
     }
 
-    //String asercjaURL = "http://testerczaki.pl/asercja";
+    //String asercjaURL = "http://dawidkaruga.pl/testerczaki/asercja";
 
     public void asercjeSprawdzajaceFormularz(String imie, String nazwisko, String email, String miasto){
         Assert.assertEquals(imie, imieInput.getAttribute("value"));

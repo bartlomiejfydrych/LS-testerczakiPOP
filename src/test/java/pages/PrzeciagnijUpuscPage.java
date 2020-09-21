@@ -22,7 +22,7 @@ public class PrzeciagnijUpuscPage extends BasePage {
         super(driver);
     }
 
-    //String przeciagnijUpuscURL = "http://testerczaki.pl/przeciagnij";
+    //String przeciagnijUpuscURL = "http://dawidkaruga.pl/testerczaki/przeciagnij";
 
     // Elementy zadania 1:
     @FindBy(id = "simpleList2") WebElement grupaB;

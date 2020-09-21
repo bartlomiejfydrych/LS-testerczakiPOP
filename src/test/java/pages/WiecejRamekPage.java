@@ -11,12 +11,12 @@ public class WiecejRamekPage extends BasePage {
         super(driver);
     }
 
-    //String wiecejRamekURL = "http://testerczaki.pl/ramki";
+    //String wiecejRamekURL = "http://dawidkaruga.pl/testerczaki/ramki";
 
-    @FindBy(css = "[src=\"/iframe2.php\"]") WebElement iframe2;
-    @FindBy(css = "[src=\"/iframe3.php\"]") WebElement iframe3;
-    @FindBy(css = "[src=\"/iframe4.php\"]") WebElement iframe4;
-    @FindBy(css = "[src=\"/iframe5.php\"]") WebElement iframe5;
+    @FindBy(css = "[src=\"/testerczaki/iframe2.php\"]") WebElement iframe2;
+    @FindBy(css = "[src=\"/testerczaki/iframe3.php\"]") WebElement iframe3;
+    @FindBy(css = "[src=\"/testerczaki/iframe4.php\"]") WebElement iframe4;
+    @FindBy(css = "[src=\"/testerczaki/iframe5.php\"]") WebElement iframe5;
 
     public void przejdzDoIframe2(){
         driver.switchTo().frame(iframe2);

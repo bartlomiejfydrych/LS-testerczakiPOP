@@ -12,7 +12,7 @@ public class OpcjonalnyFormularzPage extends BasePage {
         super(driver);
     }
 
-    //String opcjonalnyFormularzURL = "http://testerczaki.pl/opcjonalny";
+    //String opcjonalnyFormularzURL = "http://dawidkaruga.pl/testerczaki/opcjonalny";
 
     @FindBy(id = "firstName") WebElement imieInput;
     @FindBy(id = "lastName") WebElement nazwiskoInput;

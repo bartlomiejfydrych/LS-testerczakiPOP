@@ -14,7 +14,7 @@ public class LokalizatoryPage extends BasePage {
         super(driver);
     }
 
-    //String lokalizatoryURL = "http://testerczaki.pl/lokalizatory";
+    //String lokalizatoryURL = "http://dawidkaruga.pl/testerczaki/lokalizatory";
 
     @FindBy(className = "firstName") WebElement imieInput;
     @FindBy(css = "[placeholder=\"Nazwisko\"]") WebElement nazwiskoInput;

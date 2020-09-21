@@ -21,7 +21,7 @@ public class BasePage {
     }
 
     //Wspólne WebElementy dla wszystkich stron
-    @FindBy(css = "[href=\"/\"]") WebElement naglowek;
+    @FindBy(css = "[href=\"/testerczaki/\"]") WebElement naglowek;
 
     //Metoda czekająca na element
     public void waitVisibility(By element){

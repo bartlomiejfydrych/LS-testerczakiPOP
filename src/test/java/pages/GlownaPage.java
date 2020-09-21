@@ -11,24 +11,24 @@ public class GlownaPage extends BasePage {
         super(driver);
     }
 
-    String adresURL = "http://testerczaki.pl/";
+    String adresURL = "http://dawidkaruga.pl/testerczaki/";
 
     //Web Elementy
     @FindBy(id = "podstawy") WebElement podstawyZacznij;
     @FindBy(id = "wiecej") WebElement wiecejElementowZacznij;
     @FindBy(id = "asercja") WebElement asercjaZacznij;
-    @FindBy(css = "[href=\"/lokalizatory\"]") WebElement lokalizatoryZacznij;
-    @FindBy(css = "[href=\"/ukryte\"]") WebElement ukryteElementyZacznij;
-    @FindBy(css = "[href=\"/opcjonalny\"]") WebElement opcjonalnyFormularzZacznij;
-    @FindBy(css = "[href=\"/ramka\"]") WebElement ramkaZacznij;
-    @FindBy(css = "[href=\"/ramki\"]") WebElement wiecejRamekZacznij;
-    @FindBy(css = "[href=\"/okna\"]") WebElement oknaZakladkiZacznij;
-    @FindBy(css = "[href=\"/komunikaty\"]") WebElement komunikatyZacznij;
-    @FindBy(css = "[href=\"/menu\"]") WebElement menuZacznij;
-    @FindBy(css = "[href=\"/przeciagnij\"]") WebElement przeciagnijUpuscZacznij;
-    @FindBy(css = "[href=\"/mysz\"]") WebElement kliknijPrzetrzymajZacznij;
-    @FindBy(css = "[href=\"/listy\"]") WebElement niestandardoweListyZacznij;
-    @FindBy(css = "[href=\"/tabele\"]") WebElement tabeleZacznij;
+    @FindBy(css = "[href=\"/testerczaki/lokalizatory\"]") WebElement lokalizatoryZacznij;
+    @FindBy(css = "[href=\"/testerczaki/ukryte\"]") WebElement ukryteElementyZacznij;
+    @FindBy(css = "[href=\"/testerczaki/opcjonalny\"]") WebElement opcjonalnyFormularzZacznij;
+    @FindBy(css = "[href=\"/testerczaki/ramka\"]") WebElement ramkaZacznij;
+    @FindBy(css = "[href=\"/testerczaki/ramki\"]") WebElement wiecejRamekZacznij;
+    @FindBy(css = "[href=\"/testerczaki/okna\"]") WebElement oknaZakladkiZacznij;
+    @FindBy(css = "[href=\"/testerczaki/komunikaty\"]") WebElement komunikatyZacznij;
+    @FindBy(css = "[href=\"/testerczaki/menu\"]") WebElement menuZacznij;
+    @FindBy(css = "[href=\"/testerczaki/przeciagnij\"]") WebElement przeciagnijUpuscZacznij;
+    @FindBy(css = "[href=\"/testerczaki/mysz\"]") WebElement kliknijPrzetrzymajZacznij;
+    @FindBy(css = "[href=\"/testerczaki/listy\"]") WebElement niestandardoweListyZacznij;
+    @FindBy(css = "[href=\"/testerczaki/tabele\"]") WebElement tabeleZacznij;
 
     //Metody
     public GlownaPage goToGlownaPage(){

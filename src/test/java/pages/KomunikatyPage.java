@@ -12,7 +12,7 @@ public class KomunikatyPage extends BasePage {
         super(driver);
     }
 
-    //String komunikatyURL = "http://testerczaki.pl/komunikaty";
+    //String komunikatyURL = "http://dawidkaruga.pl/testerczaki/komunikaty";
 
     @FindBy(id = "msg") WebElement komunikatInput;
     @FindBy(id = "msgBtn") WebElement wyswietlKomunikatButton;
