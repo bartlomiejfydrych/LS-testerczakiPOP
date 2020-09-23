@@ -1,5 +1,5 @@
 # LS-testerczakiPOP
-Tests written in Page Object Pattern for website [testerczaki.pl](http://testerczaki.pl/)
+Tests written in Page Object Pattern for website [dawidkaruga.pl/testerczaki](http://dawidkaruga.pl/testerczaki/)
 
 I'm trying here to learn and practice my **FIRST Page Object Pattern** for writing better automation tests in Selenium and for be
 better Tester.
